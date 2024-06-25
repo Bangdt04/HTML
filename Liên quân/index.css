@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    font-family: 'roboto medium';
+}
+
+.container {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 10px solid transparent #aaa5d3 ;
+}
+
+.nav-header {
+    justify-content: center;
+    text-align: center;
+
+    padding-left: 50px;
+
+}
+
+nav ul li {
+
+    display: inline-block;
+
+}
+
+.img-header {
+    padding-top: 3px;
+}
+
+.line {
+    color: rgb(170, 73, 89);
+    padding-left: 10px;
+}
+
+nav ul a {
+    display: block;
+    text-decoration: none;
+    margin-right: 30px;
+    color: aliceblue;
+    font-family: 'ROBOTO REGULAR';
+    font-size: 25px;
+    padding-bottom: 50px;
+
+}
+
+nav ul a:hover {
+    display: block;
+    text-decoration: underline rgb(76, 32, 170);
+
+}
+
+.slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+}
+
+.banner {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+}
+
+.dot.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.dot-group {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot-group .dot:first-child {
+    margin-left: 0;
+}
+
+h2 {
+    color: #cfc39b;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+main {
+    background-color: rgb(22, 22, 90);
+   
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 5px solid ;
+    border-image: linear-gradient(to right, #7e743c, #000000);
+  border-image-slice: 1;
+}
+
+.item {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1 {
+    border: 1px solid rgb(237, 146, 48);
+    width: auto;
+    filter: brightness(100%);
+    transition: filter 0.3s ease-in-out;
+}
+.img1:hover{
+    filter: brightness(50%);
+}
+
+.text {
+    border: 1px solid rgb(237, 146, 48);
+    width: auto;
+    padding: 10px;
+    padding-left: 15px;
+    color: #cfc39b;
+}
+
+.hr {
+    color: orange;
+}
+
+.tuong-new {
+    height: 1110px;
+    
+
+}
+
+.tuong {
+    background-image: url("img/hinh-nen-may-tinh-4k-5-1024x594.jpg");
+    position: relative;
+    background-size: 1400px 1200px;
+    background-position: center;
+    height: 1000px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    border: 5px solid ;
+    border-image: linear-gradient(to right, #7e743c, #000000);
+  border-image-slice: 1;
+   
+}
+
+.button-container .tuong {
+    position: absolute;
+    left: 200px;
+    top: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    margin: 0 10px;
+    cursor: pointer;
+    clip-path: polygon(50% 0%, 87% 25%, 87% 75%, 50% 100%, 13% 75%, 13% 25%);
+    -webkit-clip-path: polygon(50% 0%, 87% 25%, 87% 75%, 50% 100%, 13% 75%, 13% 25%);
+    border: 3px solid yellow;
+}
+
+.button-1 {
+    background-image: url("img/ảnh-tướng/bt-krixi.jpg");
+
+}.button-1:hover{
+    border: none;
+    transform: scale(1.2);
+}
+.button-2:hover{
+    border: none;
+    transform: scale(1.2);
+}
+.button-3:hover{
+    border: none;
+    transform: scale(1.2);
+}
+.button-4:hover{
+    border: none;
+    transform: scale(1.2);
+}
+.button-5:hover{
+    border: none;
+    transform: scale(1.2);
+}
+.button-6:hover{
+    border: none;
+    transform: scale(1.2);
+}
+
+.button-2 {
+    background-image: url("img/ảnh-tướng/bt-errol.jpg");
+
+}
+
+.button-3 {
+    background-image: url("img/ảnh-tướng/bt-lau.jpg");
+
+}
+
+.button-4 {
+    background-image: url("img/ảnh-tướng/button-violet.jpg");
+}
+
+.button-5 {
+    background-image: url("img/ảnh-tướng/bt-omen.jpg");
+}
+
+.button-6 {
+    background-image: url("img/ảnh-tướng/bt-yorn.jpg");
+}
+
+.text-h2 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #cfc39b;
+    background-color: rgb(22, 22, 90);
+    ;
+    background-size: 50px 50px;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.mobile {
+    background-image: url(img/ảnh-nền-mobile.jpg);
+    background-size: 1400px 1100px;
+    margin-left: 15PX;
+    margin-right: 15px;
+    
+}
+
+.img-mobile {
+    text-align: center;
+    transition: filter 0.3s ease-in-out;
+}
+.img-mobile:hover {
+    transform: scale(1.1);
+}
+.text-h3 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #cfc39b;
+    background-size: 50px 50px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.text-mobile {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hop {
+    display: flex;
+    justify-content: center;
+
+}
+
+.hop-text {
+
+    display: flex;
+    color: #cfc39b;
+    margin: 50px;
+    height: 250px;
+}
+
+.Android {
+    border: 1px solid #cfc39b;
+    padding: 10px;
+}
+
+.text-Android {
+    border: 1px solid #cfc39b;
+
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'roboto';
+    color: white;
+    line-height: 30px;
+
+}
+
+.text-Android li {
+    list-style: none;
+
+}
+
+.iOS {
+    border: 1px solid #cfc39b;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.text-iOS {
+    border: 1px solid #cfc39b;
+
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'roboto';
+    color: white;
+    line-height: 30px;
+
+}
+
+.text-iOS li {
+    list-style: none;
+
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(22, 22, 90);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.text-footer {
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+
+.text-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornflowerblue;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.text-end1:hover {
+
+    color: rgb(33, 73, 146);
+
+}
+
+.text-end2:hover {
+
+    color: rgb(33, 73, 146);
+
+}
+
+.text-end3:hover {
+
+    color: rgb(33, 73, 146);
+
+}
+
+.hr {
+    width: 1000px;
+    align-items: center;
+    color: #85601f;
+
+    height: 15px;
+    padding-left: 350px;
+}
